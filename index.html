@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeonFolio - Future of Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar-container">
+
+        <nav class="navbar">
+            <div class="nav-brand">MyPortfolio</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Project</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </nav>
+        <div class="responsive-links" id="responsiveLinks">
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <header class="hero">
+        <h1 class="hero-text">Explore My Portfolio</h1>
+        <div class="hero-image">
+            <img src="./assets/header.png" alt="Futuristic cityscape" />
+        </div>
+    </header>
+
+    <main class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="./assets/1.png" alt="Project Alpha" />
+            <h3>Project Alpha</h3>
+            <p>Web Design</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="./assets/2.png" alt="Project Beta" />
+            <h3>Project Beta</h3>
+            <p>Graphic Design</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="./assets/3.png" alt="Project Gama" />
+            <h3>Project Gamma</h3>
+            <p>App Development</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="./assets/4.png" alt="Project Delta" />
+            <h3>Project Delta</h3>
+            <p>Branding</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="./assets/5.png" alt="Project Epsilon" />
+            <h3>Project Epsilon</h3>
+            <p>Illustration</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="./assets/6.png" alt="Project Zelta" />
+            <h3>Project Zelta</h3>
+            <p>Photography</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="./assets/7.png" alt="Project Elta" />
+            <h3>Project Elta</h3>
+            <p>Motion Graphic</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="./assets/8.png" alt="Project Theta" />
+            <h3>Project Theta</h3>
+            <p>UI/UX Design</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="./assets/9.png" alt="Project Iota" />
+            <h3>Project Iota</h3>
+            <p>3D Modeling</p>
+        </div>
+    </main>
+
+    <section class="bio">
+        <p>
+            I am a passionate designer with a focus on creating visually stunning and user-friendly experiences. My work
+            spans various disciplines including web design, graphic design, and app development.
+        </p>
+    </section>
+
+    <div class="about-me">
+        <div class="text">What I Do</div>
+        <div class="proff">
+            <div class="proff-1">
+                <div>Web Design</div>
+                <div>App Development</div>
+                <div>Illustration</div>
+                <div>Motion Graphics</div>
+                <div>3D Modelling</div>
+            </div>
+            <div class="proff-2">
+                <div>Graphic Design</div>
+                <div>Branding</div>
+                <div>Photography</div>
+                <div>UI/UX Design</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="feedback-title">
+            <h3>What Clients Say</h3>
+            <div class="profile-footer">
+                <div class="person-details">
+                    <div class="block-details">
+                        <img src="assets/profile.png"
+                            height="30px" width="30px" class=person1img />
+                        <div class='about-person'>
+                            <span class='person-name'>Alaric Montague</span>
+                            <span class="person-profession">CEO, TechCorp</span>
+                            <span class="express-info">Amazing work! Highly recommended.</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="person-details">
+                    <div class="block-details">
+                        <img src="assets/profile2.png"
+                            height="30px" width="30px" class=person1img />
+                        <div class='about-person'>
+                            <span class='person-name'>Beatrix Larkspur</span>
+                            <span class="person-profession">Creative Director, DesignHub</span>
+                            <span class="express-info">A true professional with a keen eye for design.</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="person-details">
+                    <div class="block-details">
+                        <img src="assets/profile3.png"
+                            height="30px" width="30px" class=person1img />
+                        <div class='about-person'>
+                            <span class='person-name'>Caspian Thorne</span>
+                            <span class="person-profession">Founder, InnovateX</span>
+                            <span class="express-info">Delivered beyond expectations.</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="person-details">
+                    <div class="block-details">
+                        <img src="assets/profile4.png"
+                            height="30px" width="30px" class=person1img />
+                        <div class='about-person'>
+                            <span class='person-name'>Daphne Wren</span>
+                            <span class="person-profession">Marketing Manager, BrandWave</span>
+                            <span class="express-info">Exceptional quality and attention to detail.</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="person-details">
+                    <div class="block-details">
+                        <img src="assets/profile.png"
+                            height="30px" width="30px" class=person1img />
+                        <div class='about-person'>
+                            <span class='person-name'>Marcus Albert</span>
+                            <span class="person-profession">web designer</span>
+                            <span class="express-info">Exceptional work</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="person-details">
+                    <div class="block-details">
+                        <img src="assets/profile.png"
+                            height="30px" width="30px" class=person1img />
+                        <div class='about-person'>
+                            <span class='person-name'>Alexis Rivera</span>
+                            <span class="person-profession">Art Collector</span>
+                            <span class="express-info">Amazing Work!</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </footer>
+
+    <footer>
+        <p>© 2023 MYportfolio</p>
+        <a href="#" class="follow">Contact me</a>
+    </footer>
+</body>
+
+</html>
